@@ -1,0 +1,22 @@
+h2 {
+  color: red;
+}
+.g {
+  color: green;
+}
+#b {
+  color: rgb(6, 51, 51);
+}
+*{
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0;
+}
+
+p[draggable]{
+    color: cornflowerblue;
+}
+p[draggable="false"]{
+    color: rgb(237, 100, 207) ;
+}
+
