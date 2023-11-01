@@ -13,41 +13,23 @@
         align-items: center;
       }
       .container {
-        height: 300px;
-        width: 300px;
+        height: 100px;
+        width: 100px;
         border: 2px solid black;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 2px;
       }
-      .box{
-        height: 148px;
-        border: 1px solid red;
-        width: 148px;
-      }
+     
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
+     <h1>hi</h1>
     </div>
   </body>
-  <script>
-    const box=document.querySelectorAll(".box");
-    box.forEach((b)=>{
-      b.addEventListener("click",function(){
-
-        if(b.style.backgroundColor==="white")
-           b.style.backgroundColor="red";
-           else{
-             b.style.backgroundColor="white";
-            }
-          }
-      )
-    })
-
-  </script>
+ 
 </html>
