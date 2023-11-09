@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css cascade</title>
+  </head>
+  <link rel="stylesheet" href="cascade.css" />
+  <body>
+    <div id="outer-box" class="box">
+      <div class="box">
+        <p>yellow</p>
+        <div class="box inner-box">
+          <p class="white-text">White Text</p>
+        </div>
+      </div>
+      <div class="box">
+        <p>Yellow Text</p>
+        <div class="box inner-box">
+          <p class="white-text">White text</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
