@@ -1,0 +1,16 @@
+h1,
+h2 {
+  color: rgb(124, 1, 239);
+}
+div > p {
+  color: firebrick;
+}
+ul li {
+  color: blue;
+}
+li.done {
+  color: green;
+}
+ul p {
+  font-size: 0.6rem;
+}

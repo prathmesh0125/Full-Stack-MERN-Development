@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.blue-box {
+  width: 400px;
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  /* transform: translate(-30%,-50%); */
+}
+.red-circle {
+  background-color: rgb(17, 218, 67);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: 70%;
+  left: 70%;
+}
+.orange-circle {
+  background-color: rgb(19, 213, 74);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: 21%;
+  left: 10%;
+}
