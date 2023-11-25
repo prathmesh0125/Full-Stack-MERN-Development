@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css gird</title>
+  <style>
+    .gird_conatainer{
+      display: flex;
+     
+      gap: 30px;
+    }
+   
+    .card
+    {
+      height: 100px;
+      /* width: 200px; */
+      border: 30px solid white;
+      flex: 1;
+      background-color: rgb(0, 238, 255);
+    }
+    .first{
+      flex: 2;
+    }
+    .second{
+      flex: 0.5;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="gird_conatainer">
+    <div class="first card">
+    </div>
+      <div class="second card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+  </div>
+</body>
+</html>
