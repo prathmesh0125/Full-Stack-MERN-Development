@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grid_conatinaer {
+        display: grid;
+        grid-template-columns: auto 400px minmax(200px, 500px);
+        grid-template-rows: 1fr 1fr 2fr;
+        gap: 0.5rem;
+        grid-auto-rows: 50px;
+      }
+      .grid_items {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid_conatinaer">
+      <div class="grid_items">width expands to fill space</div>
+      <div class="grid_items">400px wide</div>
+      <div class="grid_items">min 200px max 500px</div>
+      <div class="grid_items">width expands to fill space</div>
+      <div class="grid_items">400px wide</div>
+      <div class="grid_items">min 200px max 500px</div>
+      <div class="grid_items">width expands to fill space</div>
+      <div class="grid_items">400px wide</div>
+      <div class="grid_items">min 200px max 500px</div>
+      <div class="grid_items">50px high</div>
+    </div>
+  </body>
+</html>
